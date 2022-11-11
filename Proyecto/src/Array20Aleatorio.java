@@ -14,7 +14,8 @@ public class Array20Aleatorio {
     System.out.println("Contenido del array");
     for (int i = 0; i < LONGITUDARRAY; i++) {
       System.out.print(numerosAleatorios[i] + " ");
-    }
+    }    
+    
     
   }
 
