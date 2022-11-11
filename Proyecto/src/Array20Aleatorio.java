@@ -11,7 +11,10 @@ public class Array20Aleatorio {
       numerosAleatorios[i] = (int) (Math.random() * (RANGOFIN - RANGOINICIO + 1) + RANGOINICIO);
     }
     
-    
+    System.out.println("Contenido del array");
+    for (int i = 0; i < LONGITUDARRAY; i++) {
+      System.out.print(numerosAleatorios[i] + " ");
+    }
     
   }
 
