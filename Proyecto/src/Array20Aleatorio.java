@@ -16,6 +16,16 @@ public class Array20Aleatorio {
       System.out.print(numerosAleatorios[i] + " ");
     }    
     
+    int repeticiones = 0;
+    for (int i = RANGOINICIO; i <= RANGOFIN; i++) {
+      for (int j = 0; j < LONGITUDARRAY; j++) {
+        if (numerosAleatorios[j] == i) {
+          repeticiones++;
+        }
+      }
+      System.out.print("\nEl número " + i + " se repite " + repeticiones + " veces.");
+      repeticiones = 0;
+    }
     
   }
 
